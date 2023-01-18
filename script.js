@@ -15,7 +15,7 @@ form.addEventListener('submit', function (e) {
 
             document.getElementById('profile-content').style.display = 'block';
 
-            document.getElementById('name').innerHTML = `<a target="_blank" href = "https://github.com/${data.login}">${data.login}</a>`;
+            document.getElementById('name').innerHTML = `<a target="_blank" href = "https://github.com/${data.login}">${data.name}</a>`;
             document.getElementById('username').innerHTML = data.login;
             document.getElementById('profileImg').innerHTML = `<img src="${data.avatar_url}" alt="profile image" class="img-fluid">`;
             document.getElementById('bio').innerHTML = data.bio;
