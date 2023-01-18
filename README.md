@@ -1,1 +1,1 @@
-# github-profiler.github.io
+github profile summery card using HTML, CSS, JavaScript and GitHub API
