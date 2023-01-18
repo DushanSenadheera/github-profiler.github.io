@@ -60,3 +60,19 @@ a:visited{
     padding: 2vw;
     border-radius: 1vw;
 }
+
+form{
+    margin: 4vw;
+}
+
+input{
+    padding: 1vw;
+}
+
+.btn{
+    border: solid 0.05vw var(--primary);
+    border-radius: 0.5vw;
+    background-color: var(--primary);
+    color: var(--secondary);
+    cursor: pointer;
+}
